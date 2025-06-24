@@ -359,7 +359,7 @@ footer {
   .sticky-buttons {
     right: 10px;
     /* يقرب الأزرار من الحافة على الجوال */
-    top: 80%;
+    top: 75%;
   }
 
   .custom-btn {
@@ -389,7 +389,7 @@ footer {
     width: 140px;
     /* يصغر عرض الأزرار أكثر على الشاشات الصغيرة جدًا */
     font-size: 12px;
-    top: 80%;
+
   }
 
 }
