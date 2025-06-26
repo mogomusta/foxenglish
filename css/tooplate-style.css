@@ -81,6 +81,14 @@ span {
   color: #c93906;
 }
 
+.white {
+  color: #ffffff !important;
+}
+
+.btn-orange {
+  color: #c93906 !important;
+}
+
 /*---------------------------------------
   Buttons               
 -----------------------------------------*/
@@ -315,6 +323,18 @@ footer {
   /* يخلي الزر يصغر على الشاشات الصغيرة */
 }
 
+.custom-btn2 {
+  background-color: #c93906;
+  border-radius: 30px;
+  color: #c4a4a4;
+  font-weight: bold;
+  padding-bottom: 10px;
+  margin-top: 24px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  width: 200px;
+  max-width: 90%;
+}
+
 .fa-person {
   color: #ffffff !important;
   padding-right: 5px;
@@ -462,7 +482,7 @@ footer {
 
 #work .work-thumb img {
   border-radius: 5px;
-  cursor: crosshair;
+  cursor: pointer;
 }
 
 .wow h4 {
@@ -642,6 +662,7 @@ footer .dash-line {
   align-items: center;
   gap: 8px;
   position: relative;
+  overflow: hidden;
 
 
 
