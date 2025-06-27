@@ -326,13 +326,19 @@ footer {
 .custom-btn2 {
   background-color: #c93906;
   border-radius: 30px;
-  color: #c4a4a4;
+  color: #ffffff;
   font-weight: bold;
   padding-bottom: 10px;
   margin-top: 24px;
   transition: transform 0.3s ease, background-color 0.3s ease;
   width: 200px;
   max-width: 90%;
+}
+
+.custom-btn2:hover {
+  background-color: #000000 !important;
+  color: #ffffff;
+  /* تغيير اللون عند الهوفر */
 }
 
 .fa-person {
@@ -363,12 +369,18 @@ footer {
   width: 200px;
 }
 
-.sticky-buttons button {
-  width: 200px;
-  transition: transform 0.3s ease, background-color 0.3s ease;
+.sticky-buttons a {
+  color: #ffffff;
 }
 
 .sticky-buttons button:hover {
+  transform: scale(1.1);
+  background-color: #c93906;
+  color: #ffffff;
+  /* تغيير اللون عند الهوفر */
+}
+
+.sticky-buttons a:hover {
   transform: scale(1.1);
   background-color: #c93906;
   color: #ffffff;
@@ -450,8 +462,17 @@ footer {
 @media (max-width: 768px) {
   .about-img {
     padding: 32px 12px;
+    width: 280px;
   }
 }
+
+/* @media (max-width: 480px) {
+  .about-img {
+    padding: 32px 12px;
+    width: 100%;
+  }
+
+} */
 
 
 /*---------------------------------------
