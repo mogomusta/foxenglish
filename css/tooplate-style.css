@@ -360,8 +360,9 @@ footer {
   /* مسافة بين الأزرار */
   position: fixed;
   top: 520px;
-  right: 65px;
+  right: 20px;
   z-index: 9999;
+
   /* المسافة من أعلى الصفحة */
 }
 
@@ -390,13 +391,13 @@ footer {
 @media (max-width: 768px) {
   .sticky-buttons {
     right: 10px;
-    /* يقرب الأزرار من الحافة على الجوال */
+
     top: 75%;
   }
 
   .custom-btn {
     width: 160px;
-    /* يصغر عرض الأزرار على الشاشات الصغيرة */
+
     font-size: 14px;
     padding: 8px 12px;
   }
@@ -408,7 +409,7 @@ footer {
     gap: 12px;
     position: fixed;
     top: 700px;
-    /* مسافة بين الأزرار */
+
   }
 
 
@@ -417,11 +418,15 @@ footer {
 
 
 @media (max-width: 480px) {
+
+  .sticky-buttons {
+    right: 5px;
+  }
+
   .custom-btn {
     width: 140px;
-    /* يصغر عرض الأزرار أكثر على الشاشات الصغيرة جدًا */
     font-size: 12px;
-
+    padding: 6px 10px;
   }
 
 }
@@ -701,6 +706,29 @@ input::placeholder {
   opacity: 5;
 }
 
+.privacy-links {
+  color: #878787;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 20px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.privacy-links a {
+  color: #878787;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.privacy-links a:hover {
+  color: #c93906;
+
+}
+
+
 /*---------------------------------------
   Social icon             
 -----------------------------------------*/
@@ -743,11 +771,6 @@ input::placeholder {
   transform: scale(1.1);
 }
 
-/* .social-icon li img:hover {
-  background: #c93906;
-  color: #ffffff;
-  transform: scale(1.1);
-} */
 
 /*---------------------------------------
   Mobile Responsive styles              
@@ -797,7 +820,7 @@ input::placeholder {
 
   h3 {
     font-size: 14px;
-    /* letter-spacing: 4px; */
+
   }
 
   #about .about-thumb {
@@ -813,7 +836,3 @@ input::placeholder {
   }
 
 }
-
-
-
-/* //------ cards --------\\ */
