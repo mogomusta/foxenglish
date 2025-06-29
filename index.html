@@ -14,6 +14,7 @@
      <meta name="author" content="Tooplate">
      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
+
      <link rel="stylesheet" href="css/bootstrap.min.css">
      <link rel="stylesheet" href="css/animate.css">
      <link rel="stylesheet" href="css/magnific-popup.css">
@@ -40,8 +41,11 @@
      <div class="preloader">
           <div class="spinner">
                <span class="spinner-rotate"></span>
+
           </div>
+
      </div>
+
 
 
      <!-- HOME SECTION -->
@@ -336,8 +340,8 @@
           </div>
 
           <div class="col-md-12 col-sm-12 text-center privacy-links mt-4">
-               <a href="#" class="mx-2">سياسة الخصوصية</a> |
-               <a href="#" target="_blank">الشروط
+               <a href="policy/Fox-English-Privacy-Policy.html" class="mx-2" target="_blank">سياسة الخصوصية</a> |
+               <a href="policy/Terms-of-Service.html" target="_blank">الشروط
                     والأحكام</a>
           </div>
      </footer>
@@ -358,6 +362,14 @@
           crossorigin="anonymous"></script>
      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
      <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+     <script>
+          // اختبار: أخفِ الـ loader بعد 3 ثوانٍ
+          window.addEventListener('load', function () {
+               setTimeout(function () {
+                    document.getElementById('preloader').style.display = 'none';
+               }, 3000); // 3 ثوانٍ
+          });
+     </script>
 
 
 </body>
